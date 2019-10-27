@@ -1,13 +1,6 @@
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-//implement datePicker modal
 
-class LandingPage extends React.Component {
+class TakeAction extends React.Component {
   // render() {
   //   return (
   //     // <div>
@@ -26,5 +19,3 @@ class LandingPage extends React.Component {
   //   );
   // }
 }
-
-export default LandingPage;

@@ -27,12 +27,6 @@ class App extends React.Component {
       <Router>
       <nav>
        <div>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/yes">Yes</Link>
-        </li>
         <Switch>
           <Route path="/yes">
             <Yes />
@@ -55,9 +49,9 @@ function Home() {
         <header className="App-header">
           <img src={stop} className="App-logo" alt="logo" />
           <p>
-            Do you think you are being evicted?
+            Are you being evicted? We can help.
           </p>
-          <Link to="/yes">Yes</Link>
+          <Link to="/yes">Start Here</Link>
           
         </header>
     </div>
