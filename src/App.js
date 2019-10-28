@@ -47,11 +47,11 @@ function Home() {
   return (
     <div className="App">
         <header className="App-header">
-          <img src={stop} className="App-logo" alt="logo" />
+          <h1>Resist Eviction in California</h1>
           <p>
-            Are you being evicted? We can help.
+            Are you being evicted? You can fight it.
           </p>
-          <Link to="/yes">Start Here</Link>
+          <Link to="/yes">Learn More</Link>
           
         </header>
     </div>
