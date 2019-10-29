@@ -1,5 +1,5 @@
 import React from 'react';
-import stop from './stop.jpg';
+//import stop from './stop.jpg';
 import './App.css';
 //import LandingPage from './LandingPage';
 import {
