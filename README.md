@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An open-source project to help California tenants resist eviction. 
 
 ## Available Scripts
 

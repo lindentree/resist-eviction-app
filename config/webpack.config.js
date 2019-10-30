@@ -50,6 +50,15 @@ const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
+//custom override
+const { override, addDecoratorsLegacy } = require("customize-cra");
+
+const enableRequireEnsure = () => config => {
+  config.output.globalObject = 'this'
+  config.module.rules[0].parser.requireEnsure = true
+  return config
+}
+
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function(webpackEnv) {
