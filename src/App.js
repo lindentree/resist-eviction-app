@@ -2,6 +2,8 @@ import React from 'react';
 //import stop from './stop.jpg';
 import './App.css';
 import LandingPage from './LandingPage';
+import Emergency from './Emergency';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,10 +11,10 @@ import {
   Link
 } from "react-router-dom";
 
-const divStyle = {
-  fontSize: '40px',
-  textAlign: 'center'
-};
+// const divStyle = {
+//   fontSize: '40px',
+//   textAlign: 'center'
+// };
 
 class App extends React.Component {
   constructor(props) {
@@ -31,9 +33,12 @@ class App extends React.Component {
           <Route path="/yes" component={LandingPage}>
             
           </Route>
-          <Route path="/">
+          <Route exact path="/">
             <Home />
           </Route>
+
+        <Route path="/answer" component={Emergency}>
+        </Route>
         </Switch>
         </div>
       </nav>

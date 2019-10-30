@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { usePdf } from '@mikecousins/react-pdf';
  
-const MyPdfViewer = () => {
+const MyPdfViewer = (props) => {
   const [page, setPage] = useState(1);
   const [pages, setPages] = useState(null);
- 
+   
   const renderPagination = (page, pages) => {
     if (!pages) {
       return null;
@@ -54,7 +54,7 @@ const MyPdfViewer = () => {
   const canvasEl = useRef(null);
  
   const [loading, numPages] = usePdf({
-    file: 'sum130.pdf',
+    file: props.filename,
     page,
     canvasEl,
     scale: 0.4
