@@ -1,7 +1,7 @@
 import React from 'react';
 //import stop from './stop.jpg';
 import './App.css';
-//import LandingPage from './LandingPage';
+import LandingPage from './LandingPage';
 import {
   BrowserRouter as Router,
   Switch,
@@ -28,8 +28,8 @@ class App extends React.Component {
       <nav>
        <div>
         <Switch>
-          <Route path="/yes">
-            <Yes />
+          <Route path="/yes" component={LandingPage}>
+            
           </Route>
           <Route path="/">
             <Home />
@@ -59,15 +59,6 @@ function Home() {
     )
 }
 
-function Yes() {
-  return (
-  <nav style={divStyle}>
-    <h1>
-        Don't Panic 
-    </h1>
-  </nav>
-  )
-}
 
 
 
