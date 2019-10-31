@@ -21,8 +21,11 @@
   color: #09d3ac;
 }
 
-/*.viewer {
-  height: 200px;
-  width: 50%;
-  
-}*/
+.Landing-page {
+  text-align: center;
+}
+
+.Emergency-page {
+    text-align: center;
+
+}

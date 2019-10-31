@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="Landing-page">
         Have you received a form that looks like this?
         <div>
           <MyPdfViewer filename="sum130.pdf"/> 
