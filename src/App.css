@@ -21,6 +21,11 @@
   color: #09d3ac;
 }
 
+.summary {
+  font-size: 40px;
+  color: red;
+}
+
 .Landing-page {
   text-align: center;
 }

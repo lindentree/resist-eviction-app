@@ -16,7 +16,7 @@ class Emergency extends React.Component {
     return (
       <div className="Emergency-page">
           <MyPdfViewer filename="ud105.pdf"/> 
-        <div>
+        <div className="summary">
           You only have FIVE court days from the date you received the previous form from your landlord to respond with this form
         </div>
       </div>
