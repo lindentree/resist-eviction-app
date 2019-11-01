@@ -1,9 +1,13 @@
 const express = require('express');
+const compression = require('compression');
+
 const bodyParser = require('body-parser')
 const path = require('path');
 const app = express();
 const port = 8080;
 
+
+app.use(compression());
 app.use('/', express.static(__dirname + '/../build'));
 
 
