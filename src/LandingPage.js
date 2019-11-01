@@ -25,6 +25,8 @@ class LandingPage extends React.Component {
         </div>
         <div className="summary">
           Have you received a form that looks like this?
+          If so, you are about to be evicted.
+          Don't give up, there is still something you can do.
         </div>
       
        <Link to="/answer">Go Here</Link>

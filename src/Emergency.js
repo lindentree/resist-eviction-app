@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import MyPdfViewer from './PDFviewer';
+import Disclaimer from './Disclaimer';
 
 class Emergency extends React.Component {
 
@@ -17,9 +18,20 @@ class Emergency extends React.Component {
       <div className="Emergency-page">
           <MyPdfViewer filename="ud105.pdf"/> 
         <div className="summary">
-          You only have FIVE court days from the date you received the previous form from your landlord to respond with this form
+          You have FIVE court days from the date you received the previous form from your landlord to file this at your nearest courthose
         </div>
+          <p>
+            You should find a lawyer to help you fill it out; however, if you're about to miss the deadline, file it with your name, your address, and the court address.
+          </p>
+          <p>
+            This will buy you another TEN days to amend this answer form and file again properly.
+          </p>
+          <p>
+            Filing this will cost money, although you should ask the courthouse clerk for a fee waiver form.
+          </p>
+           <Disclaimer />
       </div>
+
     );
   }
 }
