@@ -1,4 +1,6 @@
-An open-source project to help California tenants resist eviction. This app was bootstrapped using Create-React-App
+An open-source project to help California tenants resist eviction. This web app was bootstrapped using Create-React-App, and won the 2019 LexLab/UC Hastings Homelessness Hack hackathon in San Francisco. We're looking for contributors to help build out various features and improve the UX/UI to serve real people in need.
+
+To contribute, please fork the repo, make changes to a feature branch(labeled descriptively like "localize_korean"), and open a pull request. Read more about this workflow here: https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
 ## Available Scripts
 
