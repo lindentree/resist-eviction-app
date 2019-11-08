@@ -4,7 +4,7 @@ const Disclaimer = () => {
   return (
     <div className="disclaimer">
       This website is not intended to replace or provide legal services.
-      Please consult a attorney or paralegal if possible.
+      Please consult a lawyer.
       
     </div>
   )
