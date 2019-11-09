@@ -6,6 +6,8 @@ An open-source project to help California tenants resist eviction. Eviction from
 
 We have an open issues page; feel free to add issues or suggest features there. To contribute, please fork the repo, make changes to a feature branch(labeled descriptively like "add_attorneylist_page"), and open a pull request. Read more about this workflow here: https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
 
+*Note: we are trying to keep this app as performant as possible for people on limited data plans, old phones or otherwise limited Internet access. Bootstrap/jQuery may be necessary eventually, but small custom CSS is the current project paradigm, since third-party scripts add a lot of weight. Please open an issue if you are designing components that need advanced styling, React styled-components may be a good project option, and discussion of other options is welcome.
+
 ***
 
 ## Available Scripts
@@ -15,7 +17,7 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
