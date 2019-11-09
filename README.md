@@ -1,6 +1,12 @@
-An open-source project to help California tenants resist eviction. This web app was bootstrapped using Create-React-App, and won the 2019 LexLab/UC Hastings Homelessness Hack hackathon in San Francisco. We're looking for contributors to help build out various features and improve the UX/UI to serve real people in need.
+An open-source project to help California tenants resist eviction. Eviction from homes is the single greatest cause of permanent homelessness; around 5 evictions happen EVERY DAY in Alameda County alone, and the homeless population there has exploded by 43% in the past year.
+ 
+ This web app was bootstrapped using Create-React-App, and won the 2019 LexLab/UC Hastings Homelessness Hack hackathon in San Francisco. Our team's initial beta is live here: https://caresistevictions.herokuapp.com/
+ 
+ The goal is to build an easily accessible resource for people to learn about the eviction process and how to fight it in court. We're looking for contributors to help build out various features and improve the UX/UI to serve real people in need.
 
-To contribute, please fork the repo, make changes to a feature branch(labeled descriptively like "localize_korean"), and open a pull request. Read more about this workflow here: https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
+We have an open issues page; feel free to add issues or suggest features there. To contribute, please fork the repo, make changes to a feature branch(labeled descriptively like "add_attorneylist_page"), and open a pull request. Read more about this workflow here: https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/
+
+***
 
 ## Available Scripts
 

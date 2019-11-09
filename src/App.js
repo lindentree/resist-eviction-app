@@ -41,6 +41,7 @@ class App extends React.Component {
 function Home() {
   return (
     <div className="App">
+
       <header className="App-header">
         <h1>Resist Eviction in California</h1>
         <p>Are you being evicted? You can fight it.</p>
@@ -52,6 +53,26 @@ function Home() {
       </header>
     </div>
   );
+
+       
+    </div>
+
+    )
+
+  function Intro() {
+    return (
+      <div class="contents">
+      <div class="first-question">
+        <div>Are you being evicted?</div>
+        <div>You can fight it.</div>
+        <div>Find help here.</div>
+      </div>
+    </div>
+
+
+    )
+    
+  }
 }
 
 export default App;

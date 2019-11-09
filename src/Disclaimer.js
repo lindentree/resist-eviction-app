@@ -8,6 +8,7 @@ const Disclaimer = () => {
         <br />
         Please consult an attorney or paralegal if possible.
       </p>
+
     </div>
   );
 };
