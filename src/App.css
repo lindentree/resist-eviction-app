@@ -21,20 +21,34 @@
   color: #09d3ac;
 }
 
-.summary {
-  font-size: 40px;
-  color: red;
-}
-
 .Landing-page {
   text-align: center;
+  color: white;
+  padding: 2%;
 }
 
 .Emergency-page {
-    text-align: center;
-
+  text-align: center;
+  color: white;
+  padding: 2%;
 }
 
-.disclaimer {
-  color: red;
+.p-padding {
+  padding: 2%;
+}
+
+.link,
+.link:hover,
+.link:active,
+.link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.pdf-image {
+  width: 75%;
+}
+
+body {
+  font-family: "McLaren", cursive;
 }
