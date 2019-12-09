@@ -18,7 +18,7 @@ class Emergency extends React.Component {
       <div className="Emergency-page">
           <MyPdfViewer filename="ud105.pdf"/> 
         <div className="summary">
-          You have FIVE court days from the date you received the previous form from your landlord to file this at your nearest courthose
+          You have FIVE court days from the date you received the previous form from your landlord to file this at your nearest courthouse
         </div>
           <p>
             You should find a lawyer to help you fill it out; however, if you're about to miss the deadline, file it with your name, your address, and the court address.

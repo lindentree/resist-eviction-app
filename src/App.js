@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import LandingPage from './LandingPage';
 import Emergency from './Emergency';
+import Disclaimer from './Disclaimer';
 
 import {
   BrowserRouter as Router,
@@ -52,19 +53,20 @@ function Home() {
   return (
     <div className="App">
         <header className="App-header">
-          <h1>Resist Eviction in California</h1>
+          <h1 className="logo">Resist Eviction in California</h1>
           <Intro />
-          <Link to="/yes">Learn More</Link>
+          <Link to="/yes" className="button">Learn More</Link>
           
         </header>
+        <Disclaimer />
     </div>
 
     )
 
   function Intro() {
     return (
-      <div class="contents">
-      <div class="first-question">
+      <div className="contents">
+      <div className="first-question">
         <div>Are you being evicted?</div>
         <div>You can fight it.</div>
         <div>Find help here.</div>
